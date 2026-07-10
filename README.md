@@ -38,8 +38,11 @@ Auroiwick, a luxury candle manufacturer selling products through Amazon, wants t
 - Product prices ranged between **£9.00 and £12.00** over the three-year analysis period
 - Historical profit increased as the selling price increased, before declining beyond a certain price point, indicating an optimal pricing range.
 
-![Profit Curve](images/Graph.png)
+![Profit Curve](Images/Graph.png)
 
 - Regression analysis identified a **significant non-linear relationship** between price and demand. The positive coefficient for **Price** (β = 1475.35, *p* < 0.05) and the negative coefficient for **Price²** (β = -7318.22, *p* < 0.05) indicate that demand initially increases with price before decreasing at higher price levels.
+
+![Profit Curve](Images/Regression.png)
+
 - Excel Solver identified **£10.20** as the profit-maximising selling price. At this price, the model predicts a daily demand of approximately **140 units**, resulting in an estimated daily profit of **£1,432**.
 
